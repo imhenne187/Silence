@@ -22,7 +22,7 @@ Create a Repository and copy the files from this repository:
 ```env
 WEBHOOK_URL=your_webhook_url_here 
 ```
-If it doesn't work:
+**If it doesn't work:**
 ```env
 DISCORD_WEBHOOK_URL=your_webhook_url_here
 ```
