@@ -1,10 +1,28 @@
->>> Helo
-Tutorial for webhook:
-copy the files on this repo (package.json and index.js)
-Go to render, Deploy webserver, Choose your repo
---> build = npm install
---> start = npm start
-Env Variables:
-WEBHOOK_URL (if it doesnt work DISCORD_WEBHOOK_URL) = (Value) yourwebhookurl
+# Webhook Setup Tutorial
 
-After its live put the webhookexample.lua on top of your script and your done :)
+## Step-by-Step Guide
+
+### 1. Copy Files
+Copy the files from this repository:
+- `package.json`
+- `index.js`
+
+### 2. Deploy to Render
+1. Go to [Render](https://render.com)
+2. Select **"Deploy Web Service"**
+3. Choose your repository
+
+### 3. Build Configuration
+| Setting          | Value        |
+|------------------|-------------|
+| **Build Command** | `npm install` |
+| **Start Command** | `npm start`   |
+
+### 4. Set Environment Variables
+```env
+WEBHOOK_URL=your_webhook_url_here 
+```
+If it doesn't work:
+```env
+DISCORD_WEBHOOK_URL=your_webhook_url_here
+```
