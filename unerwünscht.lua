@@ -1,3 +1,4 @@
 return {
-  imhenne008
+  "imhenne008",
+  "test"
 }
