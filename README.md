@@ -3,7 +3,7 @@
 ## Step-by-Step Guide
 
 ### 1. Copy Files
-Copy the files from this repository:
+Create a Repository and copy the files from this repository:
 - `package.json`
 - `index.js`
 
